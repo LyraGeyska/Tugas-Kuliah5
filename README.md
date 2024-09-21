@@ -236,8 +236,8 @@ Pada *Button* Hapus (btnHapus) disini, akan difungsikan sebagai tombol untuk men
 Seperti halnya btnUpdate, pada btnHapus ini menambahkan fungsi bersih() untuk membersihkan *Text Field* yang sebelumnya terisi data yang telah dipilih.
 
 ## Penggunaan Fungsi btnExit
+*Button* ini btnExit ditambahkan untuk keluar dari Aplikasi hanya dengan memilih tombol ini, tanpa harus close program melalui x. Berikut adalah codenya :
 <pre>
-  *Button* ini btnExit ditambahkan untuk keluar dari Aplikasi hanya dengan memilih tombol ini, tanpa harus close program melalui x. Berikut adalah codenya :
 private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {                                        
         // TODO add your handling code here:
         System.exit(0);
